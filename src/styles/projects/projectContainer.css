@@ -4,7 +4,7 @@
   
   display: grid;
 
-  grid-template-columns: 1fr 1fr;  
+  grid-template-columns: 1fr 2fr;  
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "image header"
@@ -12,16 +12,16 @@
 }
 
 .project-title {
-  grid-area: "header";
+  grid-area: header;
 }
 
 .project-image {
-  grid-area: "image";
+  grid-area: image;
 
   width: 250px;
   height: 250px;
 }
 
 .project-description {
-  grid-area: "desc";
+  grid-area: desc;
 }
