@@ -1,0 +1,31 @@
+.about {
+  /* for testing */
+  border: 1px solid red;
+
+  margin: 0 10% 50px 10%;
+  padding: 25px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "image text";
+}
+
+.about-header {
+  grid-area: header;
+
+  text-align: center;
+}
+
+.about-image {
+  grid-area: image;
+  
+}
+
+.about-text {
+  grid-area: text;
+
+  font-size: 24px;
+}

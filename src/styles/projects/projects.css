@@ -1,0 +1,10 @@
+.projects {
+  /* for testing */  
+  border: 1px solid green;
+
+  margin: 0 10% 50px 10%;
+}
+
+.projects-title {
+  text-align: center;
+}
